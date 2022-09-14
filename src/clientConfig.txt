@@ -1,0 +1,21 @@
+# FILE DI CONFIGURAZIONE CLIENT
+# da scrivere come "chiave" = "valore"
+
+# Indirizzo del server
+SERVER = localhost
+
+# Porta TCP del server
+TCPPORT = 6789
+
+# Porta del registry RMI per la registrazione
+RMIPORT = 7777
+
+# Porta del registry RMI per il callback
+NOTIFYPORT = 6230
+
+# Indirizzo di multicast
+MULTICAST = 239.255.32.32
+
+# Porta di multicast
+MCASTPORT = 44444
+

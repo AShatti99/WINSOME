@@ -1,0 +1,27 @@
+# FILE DI CONFIGURAZIONE SERVER
+# da scrivere come "chiave" = "valore"
+
+
+# Porta TCP del server
+TCPPORT = 6789
+
+# Porta del registry RMI per la registrazione
+RMIPORT = 7777
+
+# Porta del registry RMI per il callback
+NOTIFYPORT = 6230
+
+# Indirizzo di multicast
+MULTICAST = 239.255.32.32
+
+# Porta di multicast
+MCASTPORT = 44444
+
+# Calcolo periodico delle ricompense
+REWARDTIME = 60000
+
+# Ricompensa d'autore
+AUTHOREWARD = 70
+
+# Time-out server pool
+TIMEOUT = 20000
